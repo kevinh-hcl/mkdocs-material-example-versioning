@@ -20,7 +20,7 @@
 
 # Project information
 site_name: My Docs
-site_url: https://squidfunk.github.io/mkdocs-material-example-versioning/
+site_url: https://kevinh-hcl.github.io/mkdocs-material-example-versioning/
 site_author: Martin Donath
 
 # Repository
@@ -37,3 +37,7 @@ theme:
 extra:
   version:
     provider: mike
+
+plugins:
+  - mike:
+      canonical_version: latest
